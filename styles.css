@@ -621,3 +621,82 @@ footer {
         bottom: 20px;
     }
 }
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    /* ...existing code... */
+
+    /* Ajouts pour une meilleure adaptation mobile */
+    .container {
+        padding: 0 15px;
+    }
+
+    .profile-info h1 {
+        font-size: 1.8rem;
+    }
+
+    .profile-info h2 {
+        font-size: 1.2rem;
+    }
+
+    .profile-pic img {
+        width: 150px;
+        height: 150px;
+    }
+
+    #main-nav {
+        margin: 10px 0;
+    }
+
+    #main-nav a {
+        padding: 12px 0;
+    }
+
+    .section {
+        margin-bottom: 30px;
+    }
+
+    .section-title {
+        font-size: 1.3rem;
+        padding: 12px 15px;
+    }
+
+    .skill-category h3 {
+        font-size: 1.1rem;
+    }
+}
+
+/* Ajout d'un breakpoint pour très petits écrans */
+@media screen and (max-width: 480px) {
+    .profile-info h1 {
+        font-size: 1.5rem;
+    }
+
+    .profile-info h2 {
+        font-size: 1rem;
+    }
+
+    .profile-pic img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .contact-info {
+        font-size: 0.9rem;
+    }
+
+    #theme-toggle,
+    #scroll-top {
+        width: 40px;
+        height: 40px;
+        right: 15px;
+    }
+
+    #theme-toggle {
+        bottom: 70px;
+    }
+
+    #scroll-top {
+        bottom: 20px;
+    }
+}
